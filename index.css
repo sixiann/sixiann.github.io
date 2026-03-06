@@ -24,11 +24,11 @@ body {
 /* https://codepen.io/typeforward/pen/wvNgEqy */
 .breathe-animation span {
     font-family: 'TheFont';
+    user-select: none;
 
     /* The 'clamp()' function sets a flexible font size that will never go below a minimum value and never above a maximum value. The middle value is preferred, but it will shrink or grow based on the viewport dimensions. */
     /* Adjusts font size based on content width and viewport height */
-    font-size: clamp(4vw, 8vw, 12.5vw);
-
+    font-size: clamp(3rem, 8vw, 5rem);
     /* Change this to set the text color */
     color: white;
 
