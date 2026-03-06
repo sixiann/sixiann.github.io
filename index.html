@@ -18,8 +18,27 @@
   <link href="./index.css" rel="stylesheet">
 </head>
 
-<body class="breathe-animation neon-text">
+<body class="breathe-animation neon-text" id="page">
   <span>you should <br> hire me</span>
 </body>
+<script>
+  const gifs = [
+    "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmFxeDB0YW50eTBydW9qdTBmcG01Nm5lbjhienIwNzFuZjdka3pwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IfxBjGrbIK3vwkODkA/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM20zZDk0YzExM29jMzJsbG1nbjhieTFqc3p6bWJudHB4MDhnamtwNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/jTHO8Eq0uu0ePvsjoM/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3czF0cnVkOHhzdmthMWlzNTFxbnYxNGV6a2xlamlucGU3cHZpcDBsZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MahwLPliaF1nF3hooQ/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dTRiazRmbTI5dWtkaGpqMGttbWhjampmZ2xnc3ltbGV4b3B5OGk0cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oKIP7rZqEbTWA2n60/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3czF0cnVkOHhzdmthMWlzNTFxbnYxNGV6a2xlamlucGU3cHZpcDBsZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0CLUrZiblFUBMMrC/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dTRiazRmbTI5dWtkaGpqMGttbWhjampmZ2xnc3ltbGV4b3B5OGk0cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dVcWQxRmR8LpcjPvvb/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NzMycHJ4ajg3YWM5cDY2a2c3aTk2NHg1MDAwbmN1YXc1cTlyYm9zbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/jUXIqc9krqAaoc39ao/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3anNzcmwzeWQ2d3ZodDgwa3doYm9rbGdrcTB2aXVsejdubHkyemdzYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cNvyHFALpPHomfxQy0/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NnI0dzN5c2VkMjRpeWVuZncwMmdrbnNvMWF2bThodmdkdXhtbG9hMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KE2bkE27ghVoIxwWCl/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MG94YXg1dDNqaGU3eGNpcjE2ZDd1Z3h0ZXlkbHl1aXB2bmJ5ZDdlaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5jUJ8h1HfKk9zLIulu/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MG94YXg1dDNqaGU3eGNpcjE2ZDd1Z3h0ZXlkbHl1aXB2bmJ5ZDdlaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xlcXPLkWNLwZ4cNHsF/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dmdxM2xzbmF3ZHJoM3I2NmE1bXBxb240NGNhYzV5ZzgxZmQyaTlueiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7a1MnuA6c7tXgJsTLT/giphy.gif"
+  ];
+
+  const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
+  document.body.style.backgroundImage = `url('${randomGif}')`;
+</script>
 
 </html>

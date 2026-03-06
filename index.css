@@ -1,9 +1,8 @@
 body {
-    background-image: url('assets/images/gif.gif');
-    /* background-size: cover; */
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
-
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +37,10 @@ body {
     /* The 'animation' property applies the 'letter-breathe' keyframes to the element, making it animate over 3 seconds.'ease-in-out' makes the movement start and end slowly, and 'infinite' makes it repeat forever. */
     /* Controls the animation (3s is the duration) */
     animation: letter-breathe 3s ease-in-out infinite;
+}
+
+.breathe-animation span:hover {
+    cursor: none;
 }
 
 /* Keyframes define the sequence of styles that an element will go through during an animation. */
